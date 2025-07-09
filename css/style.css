@@ -11591,3 +11591,15 @@ body:has(#search.open):before {
     padding-top: 60px;
   }
 }
+
+.apple {
+    height: 40px;           /* Set desired height */
+    width: auto;            /* Maintain aspect ratio */
+    display: block;         /* Removes inline spacing */
+}
+
+
+.apple:hover {
+    transform: scale(1.05); /* Optional: subtle zoom on hover */
+    transition: transform 0.2s ease;
+}
