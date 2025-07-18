@@ -7643,6 +7643,7 @@ form.fullborder .form-control:focus {
   line-height: 30px;
 }
 
+
 /*Hamburger*/
 .hamburger {
   padding: 15px;
@@ -7954,6 +7955,12 @@ header.header.header-sticky.is-sticky.header-02 .navbar .navbar-brand img.sticky
   display: flex;
   align-items: center;
 }
+
+/* @media (max-width: 767px) {
+  .header-phone-number {
+    display: none !important;
+  }
+} */
 
 .action-group .header-phone-number i {
   color: #4b9ad6;
@@ -8555,6 +8562,10 @@ header.header.header-sticky.is-sticky.header-02 .navbar .navbar-brand img.sticky
   }
 
   .header .navbar .action-group .menu-btn {
+    display: none;
+  }
+
+  .header .navbar .action-group .header-phone-number {
     display: none;
   }
 
